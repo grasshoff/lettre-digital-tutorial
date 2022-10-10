@@ -2,16 +2,16 @@
   {
     "objectID": "inquiries.html",
     "href": "inquiries.html",
-    "title": "lettre-digital-tutorial",
+    "title": "Inquiries",
     "section": "",
-    "text": "Inquiries"
+    "text": "André Weil cites Euler:(weil_euler?)\nEuler"
   },
   {
     "objectID": "scholarium.html",
     "href": "scholarium.html",
-    "title": "lettre-digital-tutorial",
+    "title": "Scholarium",
     "section": "",
-    "text": "The universe of scholarly wisdom"
+    "text": "As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection.\nEuler collection of JSTOR\n\n\nScholarly article can be cited from bibliographical databases. Bibliographical reference databases can be imported into the markdown document directly from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Eckert 2002)\n\nEckert, Michael. 2002. “Euler and the Fountains of Sanssouci.” Archive for History of Exact Sciences 56 (6): 451–68. http://www.jstor.org/stable/41134151.\nOnline article"
   },
   {
     "objectID": "design.html",
@@ -19,6 +19,13 @@
     "title": "lettre-digital-tutorial",
     "section": "",
     "text": "Design"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "lettre-digital-tutorial",
+    "section": "",
+    "text": "Bibliographical references can be imported into the markdown document from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Askey 1980)\n\n\n\nAskey, Richard. 1980. “Ramanujan’s Extensions of the Gamma and Beta Functions.” The American Mathematical Monthly: The Official Journal of the Mathematical Association of America 87 (5): 346–59. https://doi.org/10.2307/2321202."
   },
   {
     "objectID": "about.html",

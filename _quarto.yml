@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  title: "lettre-digital-tutorial"
+  sidebar:
+    border: false
+    collapse-level: 1
+    search: false
+    background: lightgrey
+    contents:
+      - section: "Design / Layout"  
+        contents:
+          - design.qmd
+      - section: "Documents"
+        contents:
+          - documents.qmd
+      - section: "Collections"
+        contents:
+          - collections.qmd
+      - section: "Inquiries"
+        contents:
+          - inquiries.qmd
+      - section: "anNotes"
+        contents:
+          - anNotes.qmd
+      - section: "Scholarium"
+        contents:
+          - scholarlium.qmd
+      - section: "Contributions"
+        contents:
+          - contributions.qmd
+      - section: "Digital sources"
+        contents:
+          - digital-sources.qmd  
+  page-footer:
+    left: "© Copyright 2022 Gerd Graßhoff. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0."
+
+
+format:
+  html:
+    theme: [sandstone,_variables.scss]
+    css: styles.css
+    page-layout: full
+    toc: false
+    fontsize: 1.1em
+    linestretch: 1.7
+    max-width: 2000px
+    margin-right: 0px
+    smooth-scroll: true
+    toc-location: left
+    code-fold: true
+    bibliography: euler_sec.bib
+    citeproc: true
+    citations-hover: true
+    citation-location: margin
+#    csl: elsevier-with-titles-alphabetical
+#    csl: nature

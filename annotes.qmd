@@ -1,0 +1,8 @@
+# Quarto notebooks
+
+## preamble
+
+This is a notebook for the Quarto project. Quarto is a new document format that allows you to write documents in markdown and have them rendered to a variety of formats including HTML, PDF, Word, and more. Quarto is built on top of Pandoc and is designed to be a superset of Pandoc markdown. Quarto is also designed to be a superset of R Markdown, so you can use all of the features of R Markdown in Quarto documents.
+
+## yaml header
+

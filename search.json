@@ -49,10 +49,24 @@
     "text": "This is a notebook for the Quarto project. Quarto is a new document format that allows you to write documents in markdown and have them rendered to a variety of formats including HTML, PDF, Word, and more. Quarto is built on top of Pandoc and is designed to be a superset of Pandoc markdown. Quarto is also designed to be a superset of R Markdown, so you can use all of the features of R Markdown in Quarto documents."
   },
   {
+    "objectID": "deep-reading.html",
+    "href": "deep-reading.html",
+    "title": "lettre-digital-tutorial",
+    "section": "",
+    "text": "Elements of deep reading"
+  },
+  {
     "objectID": "documents.html",
     "href": "documents.html",
     "title": "lettre-digital-tutorial",
     "section": "",
     "text": "Documents"
+  },
+  {
+    "objectID": "contributions.html",
+    "href": "contributions.html",
+    "title": "lettre-digital-tutorial",
+    "section": "",
+    "text": "Editions like Euler Opera Omnia and Bernoulli Opera Omnia are a great source of information and scholarly reference. They are also a great source of scholarly inquiry. New findings can be published with traditional publication channels like book or articles. Novel media are Euler Opera Omnia Serie Quinta: Contributions. There core format are\n\nquarto notebooks in markdown format\ncomputational notebooks in Jupyter format\nobservablehq notebooks\n\nThe notebooks are published in the Euler Opera Omnia Serie Quinta: Contributions after a fast peer review process. The notebooks are published under a CC-BY-SA license. The notebooks are published in the Euler Opera Omnia Serie Quinta: Contributions after a fast peer review process. The notebooks are published under a CC-BY-SA license."
   }
 ]

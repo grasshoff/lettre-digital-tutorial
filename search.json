@@ -14,13 +14,6 @@
     "text": "As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection. The search term “euler” displays the catalog of\n\n\n\nJSTOR\n\n\n\n\n\n\nVideo\nSimilar articles on JSTOR\n\n\n\n\n\nScholarly article can be cited from bibliographical databases. Bibliographical reference databases can be imported into the markdown document directly from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Eckert 2002)\n\nEckert, Michael. 2002. “Euler and the Fountains of Sanssouci.” Archive for History of Exact Sciences 56 (6): 451–68. http://www.jstor.org/stable/41134151.\n\n\n\nOnline article"
   },
   {
-    "objectID": "design.html",
-    "href": "design.html",
-    "title": "lettre-digital-tutorial",
-    "section": "",
-    "text": "1 Design"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -33,13 +26,6 @@
     "title": "Computational Notebooks",
     "section": "",
     "text": "All contributions, whether they are comments, notes, computational notebooks are submitted and stored in one text format. These generic text files are accessible independant of specific software, and promise a functional stability for many years to come. The success of LaTeX text formats guides our implementation.\nOur documents are written in an extended markdown based on quarto markdown that allows you to write documents in markdown and have them rendered to a variety of formats including HTML, PDF, Word, and more.[^1] Quarto is built on top of Pandoc and is designed to be a superset of Pandoc markdown. The markdown syntax is designed to be a superset of Quarto markdown, so you can use all of the features in a Quarto documents.\n---\ntitle: \"Quarto Notebooks\"\nbibliography: [\"euler_sec.bib\"]\n---"
-  },
-  {
-    "objectID": "documents.html",
-    "href": "documents.html",
-    "title": "lettre-digital-tutorial",
-    "section": "",
-    "text": "1 Documents"
   },
   {
     "objectID": "contributions.html",

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.142">
+<meta name="generator" content="quarto-1.2.203">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,6 +58,8 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -147,7 +149,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./collections.html" class="sidebar-item-text sidebar-link">collections</a>
+  <a href="./collections.html" class="sidebar-item-text sidebar-link">Collections</a>
   </div>
 </li>
       </ul>
@@ -177,7 +179,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annotes.html" class="sidebar-item-text sidebar-link">Quarto notebooks</a>
+  <a href="./annotes.html" class="sidebar-item-text sidebar-link">Computational Notebooks</a>
   </div>
 </li>
       </ul>
@@ -192,7 +194,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./deep-reading.html" class="sidebar-item-text sidebar-link">Elements of deep reading</a>
+  <a href="./deep-reading.html" class="sidebar-item-text sidebar-link">Deep reading</a>
   </div>
 </li>
       </ul>
@@ -235,7 +237,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./digital-sources.html" class="sidebar-item-text sidebar-link">digital-sources.html</a>
+  <a href="./digital-sources.html" class="sidebar-item-text sidebar-link">Digital sources</a>
   </div>
 </li>
       </ul>
@@ -260,6 +262,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -268,14 +271,25 @@ div.csl-indent {
 
 <section id="the-universe-of-scholarly-wisdom" class="level1 page-columns page-full">
 <h1>The universe of scholarly wisdom</h1>
-<p>As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection.</p>
-<p><a href="./assets/2022-10-10-12-35-26.png">Euler collection of JSTOR</a></p>
+<p>As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection. The search term “euler” displays the catalog of</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="./assets/jstore1.mp4"></video></div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/2022-10-10-12-35-26.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">JSTOR</figcaption><p></p>
+</figure>
+</div>
 <section id="bibliography" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
 <p>Scholarly article can be cited from bibliographical databases. Bibliographical reference databases can be imported into the markdown document directly from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.<span class="citation" data-cites="Eckert2002">(<a href="#ref-Eckert2002" role="doc-biblioref">Eckert 2002</a>)</span></p>
 <div class="no-row-height column-margin column-container"><div id="ref-Eckert2002" class="csl-entry" role="doc-biblioentry">
 Eckert, Michael. 2002. <span>“<span class="nocase">Euler and the Fountains of Sanssouci</span>.”</span> <em>Archive for History of Exact Sciences</em> 56 (6): 451–68. <a href="http://www.jstor.org/stable/41134151">http://www.jstor.org/stable/41134151</a>.
-</div></div><p><a href="./assets/2022-10-10-11-32-10.png">Online article</a></p>
+</div></div><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/2022-10-10-11-32-10.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Online article</figcaption><p></p>
+</figure>
+</div>
 
 
 
@@ -324,7 +338,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -360,24 +391,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -387,6 +436,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© Copyright 2022 Gerd Graßhoff. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0.</div>   
   </div>
 </footer>
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

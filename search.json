@@ -11,7 +11,7 @@
     "href": "scholarium.html",
     "title": "Scholarium",
     "section": "",
-    "text": "As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection.\nEuler collection of JSTOR\n\n\nScholarly article can be cited from bibliographical databases. Bibliographical reference databases can be imported into the markdown document directly from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Eckert 2002)\n\nEckert, Michael. 2002. “Euler and the Fountains of Sanssouci.” Archive for History of Exact Sciences 56 (6): 451–68. http://www.jstor.org/stable/41134151.\nOnline article"
+    "text": "As a universal scholar of immense influence Leonard Euler creates an steady source of inspiration. JSTOR records more than 40 000 publication in its collection. The search term “euler” displays the catalog of\n\n\n\n\nJSTOR\n\n\n\n\nScholarly article can be cited from bibliographical databases. Bibliographical reference databases can be imported into the markdown document directly from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Eckert 2002)\n\nEckert, Michael. 2002. “Euler and the Fountains of Sanssouci.” Archive for History of Exact Sciences 56 (6): 451–68. http://www.jstor.org/stable/41134151.\n\n\n\nOnline article"
   },
   {
     "objectID": "design.html",
@@ -21,13 +21,6 @@
     "text": "Design"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "lettre-digital-tutorial",
-    "section": "",
-    "text": "Bibliographical references can be imported into the markdown document from a bibtex file. It is either locally stored or imported from the web. Opera-Bernoulli-Euler maintains its open access bibliographies published on Zenodo which can be computationally imported for this purpose.(Askey 1980)\n\n\n\nAskey, Richard. 1980. “Ramanujan’s Extensions of the Gamma and Beta Functions.” The American Mathematical Monthly: The Official Journal of the Mathematical Association of America 87 (5): 346–59. https://doi.org/10.2307/2321202."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,25 +28,11 @@
     "text": "About this site"
   },
   {
-    "objectID": "collections.html",
-    "href": "collections.html",
-    "title": "lettre-digital-tutorial",
-    "section": "",
-    "text": "collections"
-  },
-  {
     "objectID": "annotes.html",
     "href": "annotes.html",
-    "title": "lettre-digital-tutorial",
+    "title": "Computational Notebooks",
     "section": "",
-    "text": "This is a notebook for the Quarto project. Quarto is a new document format that allows you to write documents in markdown and have them rendered to a variety of formats including HTML, PDF, Word, and more. Quarto is built on top of Pandoc and is designed to be a superset of Pandoc markdown. Quarto is also designed to be a superset of R Markdown, so you can use all of the features of R Markdown in Quarto documents."
-  },
-  {
-    "objectID": "deep-reading.html",
-    "href": "deep-reading.html",
-    "title": "lettre-digital-tutorial",
-    "section": "",
-    "text": "Elements of deep reading"
+    "text": "All contributions, whether they are comments, notes, computational notebooks are submitted and stored in one text format. These generic text files are accessible independant of specific software, and promise a functional stability for many years to come. The success of LaTeX text formats guides our implementation.\nOur documents are written in an extended markdown based on quarto markdown that allows you to write documents in markdown and have them rendered to a variety of formats including HTML, PDF, Word, and more.[^1] Quarto is built on top of Pandoc and is designed to be a superset of Pandoc markdown. The markdown syntax is designed to be a superset of Quarto markdown, so you can use all of the features in a Quarto documents.\n---\ntitle: \"Quarto Notebooks\"\nbibliography: [\"euler_sec.bib\"]\n---"
   },
   {
     "objectID": "documents.html",
